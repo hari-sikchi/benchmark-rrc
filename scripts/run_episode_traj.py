@@ -16,9 +16,9 @@ def _init_env(goal_trajectory, difficulty):
     eval_config = {
         'action_space': 'torque_and_position',
         'frameskip': 3,
-        'visualization': True,
+        'visualization': False,
         'monitor': False,
-        'sim': True,
+        'sim': False,
         'rank': 0
     }
 
